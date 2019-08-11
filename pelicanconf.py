@@ -31,10 +31,11 @@ EXTRA_PATH_METADATA = {
 HEADER = 'images/header.jpg'
 
 # Blogroll
-LINKS = ()
+#LINKS = (('Projects', 'https://rlevv.github.io/tag/projects.html'))
 
 # Social widget
-SOCIAL = (('github', 'https://github.com/rlevv'),
+SOCIAL = (('github', 'https://github.com/rlevv'), 
+          ('mail', 'mailto:rlevitt97@gmail.com'),
           ('linkedin', 'https://www.linkedin.com/in/rlevv/'),
           ('stackoverflow', 'https://stackoverflow.com/users/10782802/rlevv'))
 
