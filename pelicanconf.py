@@ -35,10 +35,10 @@ LINKS = ()
 
 # Social widget
 SOCIAL = (('github', 'https://github.com/rlevv'),
-          ('linkedin', 'https://www.linkedin.com/in/ryanlevv/'),
+          ('linkedin', 'https://www.linkedin.com/in/rlevv/'),
           ('stackoverflow', 'https://stackoverflow.com/users/10782802/rlevv'))
 
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+#RELATIVE_URLS = True

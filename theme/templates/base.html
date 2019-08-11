@@ -22,7 +22,7 @@
         <a href="{{ SITEURL }}/tags.html" class="menu-link" title="TAGS"><img src="/images/tags.png" width="40"/></a>
         <a href="{{ SITEURL }}/categories.html" class="menu-link" title="CATEGORIES"><img src="/images/categories.png" width="40"/></a>
         {% for page in pages|sort %}
-        <a href="{{ SITEURL }}/{{ page.url }}" class="menu-link" title="{{ page.title|upper}}"><img src="images/{{ page.title }}.png" width="40"/></a>
+        <a href="{{ SITEURL }}/{{ page.url }}" class="menu-link" title="{{ page.title|upper}}"><img src="/images/{{ page.title }}.png" width="40"/></a>
         {% endfor %} 
       </div>
       <div class="links">
